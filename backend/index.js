@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb+srv://adityav1304:aditya1234@cluster0.scwf2wk.mongodb.net/");
+mongoose.connect("mongodb+srv://username:password@cluster0.scwf2wk.mongodb.net/");
 
 
 //Image Storage Engine 
